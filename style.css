@@ -37,3 +37,55 @@ a {
     margin-left: 2rem;
     gap: 16px;
 }
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0rem auto -6rem;
+    background-color: #1f2937;
+    padding: 16px;
+    max-width: 100%;
+    gap: 1.9rem;
+    position: relative;
+    padding: 88px;
+
+
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 0rem;
+    font-weight: 600;
+    color: #f9faf8;
+
+}
+
+.hero p {
+    line-height: 1.7rem;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.buttn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.8rem 0.6rem;
+    border: none;
+    font-size: 1.4rem;
+    border-radius: 5px;
+    color: #e5e7eb;
+    background: rgb(55, 106, 214);
+}
+
+.buttn:hover {
+    background-color: rgb(206, 122, 20);
+}
+
+img {
+    max-width: 30rem;
+}
+  
+
+  
+  
