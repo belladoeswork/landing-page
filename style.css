@@ -12,7 +12,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 16px;
+    padding: 0 16px;
+    width: auto;
 }
 ul {
   list-style-type: none;
@@ -42,13 +43,13 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 0rem auto -6rem;
+    margin: 0rem auto -2rem;
     background-color: #1f2937;
-    padding: 16px;
-    max-width: 100%;
+    padding: 56px;
     gap: 1.9rem;
+    width: auto;
     position: relative;
-    padding: 88px;
+    
 
 
 }
@@ -83,9 +84,53 @@ a {
 }
 
 img {
-    max-width: 30rem;
+    max-width: 100%; 
 }
   
+.cases {
+    padding: 1rem 0; 
+}
+  
+.done {
+    margin: 4rem auto;
+    max-width: 900px;
+}
+
+.people h3 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.done img {
+    border-radius: 0.6rem;
+    border-color: rgb(55, 106, 214);
+    border-style: solid;
+    width: 90%;
+    height: auto;
+    vertical-align: middle;
+    margin-bottom: 8px;
+}
+
+
+.cs {
+    display: flex;
+    flex: auto;
+    height: 100px;
+    column-gap: 0px;
+    justify-content: center;
+    background: white;
+    margin: 0 auto;
+    padding: 5%;
+    width: auto;
+   
+}
+.cs-1, .cs-2, .cs-3, .cs-4 {
+    text-align: center;
+}
 
   
   
