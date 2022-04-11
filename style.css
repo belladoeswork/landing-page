@@ -71,9 +71,9 @@ a {
 .buttn {
     margin-top: 1rem;
     display: inline-block;
-    padding: 0.8rem 0.6rem;
+    padding: 0.6rem 2rem;
     border: none;
-    font-size: 1.4rem;
+    font-size: 18px;
     border-radius: 5px;
     color: #e5e7eb;
     background: rgb(55, 106, 214);
@@ -156,4 +156,48 @@ img {
     text-align: justify;  
 }
   
-  
+
+
+.info {
+    display: flex;
+    padding: 30px;
+    width: 55%;
+    position: relative;
+    margin: 100px auto;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(55, 106, 214);
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.book-btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: 0.6rem 2rem;
+    border: solid;
+    border-color: #e5e7eb;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #e5e7eb;
+    background-color: rgb(55, 106, 214);
+
+}
+
+.boxed text {
+    font-size: 18vw;
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+
+}
+
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 2rem;
+}
+
+
